@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		019592AD29DEB7B40BE7C935 /* Pods_MankaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91733A6516FC0C73F1837D3F /* Pods_MankaUITests.framework */; };
+		858CEFB4865147906ECA6DF3 /* Pods_MankaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0EDE390CEA1D3CB3103F486 /* Pods_MankaTests.framework */; };
+		8836B3244D4BC907F42D3DFA /* Pods_Manka.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9A4DB3E24DBAECD32DFD78E /* Pods_Manka.framework */; };
 		D27E4E2F24E2D0B6009F3416 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E4E2E24E2D0B6009F3416 /* AppDelegate.swift */; };
 		D27E4E3124E2D0B6009F3416 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E4E3024E2D0B6009F3416 /* SceneDelegate.swift */; };
 		D27E4E3324E2D0B6009F3416 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E4E3224E2D0B6009F3416 /* ViewController.swift */; };
@@ -36,6 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D1DE57C81A9570CBA1BAE72 /* Pods-MankaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MankaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MankaUITests/Pods-MankaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		20B68509286D5F2B000FA412 /* Pods-MankaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MankaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MankaUITests/Pods-MankaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		61562E0404A98F82C88AEA3A /* Pods-Manka.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Manka.release.xcconfig"; path = "Pods/Target Support Files/Pods-Manka/Pods-Manka.release.xcconfig"; sourceTree = "<group>"; };
+		7A77CA8F20464C3C424D3E35 /* Pods-Manka.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Manka.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Manka/Pods-Manka.debug.xcconfig"; sourceTree = "<group>"; };
+		91733A6516FC0C73F1837D3F /* Pods_MankaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MankaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AC00DDB3A273B4309C7D4F4 /* Pods-MankaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MankaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MankaTests/Pods-MankaTests.release.xcconfig"; sourceTree = "<group>"; };
+		A0EDE390CEA1D3CB3103F486 /* Pods_MankaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MankaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D27E4E2B24E2D0B6009F3416 /* Manka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Manka.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D27E4E2E24E2D0B6009F3416 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D27E4E3024E2D0B6009F3416 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +61,8 @@
 		D27E4E4F24E2D0B8009F3416 /* MankaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MankaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D27E4E5324E2D0B8009F3416 /* MankaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MankaUITests.swift; sourceTree = "<group>"; };
 		D27E4E5524E2D0B8009F3416 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1468107E0729EDAA4ECB08A /* Pods-MankaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MankaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MankaTests/Pods-MankaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E9A4DB3E24DBAECD32DFD78E /* Pods_Manka.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Manka.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8836B3244D4BC907F42D3DFA /* Pods_Manka.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				858CEFB4865147906ECA6DF3 /* Pods_MankaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +86,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				019592AD29DEB7B40BE7C935 /* Pods_MankaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		85B99BE76F943EB053044253 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9A4DB3E24DBAECD32DFD78E /* Pods_Manka.framework */,
+				A0EDE390CEA1D3CB3103F486 /* Pods_MankaTests.framework */,
+				91733A6516FC0C73F1837D3F /* Pods_MankaUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D27E4E2224E2D0B6009F3416 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +110,8 @@
 				D27E4E4724E2D0B8009F3416 /* MankaTests */,
 				D27E4E5224E2D0B8009F3416 /* MankaUITests */,
 				D27E4E2C24E2D0B6009F3416 /* Products */,
+				F9AA233CD32F3CAEC44622CE /* Pods */,
+				85B99BE76F943EB053044253 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,6 +158,19 @@
 			path = MankaUITests;
 			sourceTree = "<group>";
 		};
+		F9AA233CD32F3CAEC44622CE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A77CA8F20464C3C424D3E35 /* Pods-Manka.debug.xcconfig */,
+				61562E0404A98F82C88AEA3A /* Pods-Manka.release.xcconfig */,
+				E1468107E0729EDAA4ECB08A /* Pods-MankaTests.debug.xcconfig */,
+				9AC00DDB3A273B4309C7D4F4 /* Pods-MankaTests.release.xcconfig */,
+				20B68509286D5F2B000FA412 /* Pods-MankaUITests.debug.xcconfig */,
+				1D1DE57C81A9570CBA1BAE72 /* Pods-MankaUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D27E4E5824E2D0B8009F3416 /* Build configuration list for PBXNativeTarget "Manka" */;
 			buildPhases = (
+				3C4C0E9B547B2FCE9957419B /* [CP] Check Pods Manifest.lock */,
 				D27E4E2724E2D0B6009F3416 /* Sources */,
 				D27E4E2824E2D0B6009F3416 /* Frameworks */,
 				D27E4E2924E2D0B6009F3416 /* Resources */,
+				472AE2D9CA7C615327528DCA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D27E4E5B24E2D0B8009F3416 /* Build configuration list for PBXNativeTarget "MankaTests" */;
 			buildPhases = (
+				69420DCA57F127D9EFF795C8 /* [CP] Check Pods Manifest.lock */,
 				D27E4E4024E2D0B8009F3416 /* Sources */,
 				D27E4E4124E2D0B8009F3416 /* Frameworks */,
 				D27E4E4224E2D0B8009F3416 /* Resources */,
@@ -173,6 +216,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D27E4E5E24E2D0B8009F3416 /* Build configuration list for PBXNativeTarget "MankaUITests" */;
 			buildPhases = (
+				14CEC415D428B72FF7840C1F /* [CP] Check Pods Manifest.lock */,
 				D27E4E4B24E2D0B8009F3416 /* Sources */,
 				D27E4E4C24E2D0B8009F3416 /* Frameworks */,
 				D27E4E4D24E2D0B8009F3416 /* Resources */,
@@ -256,6 +300,133 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14CEC415D428B72FF7840C1F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MankaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C4C0E9B547B2FCE9957419B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Manka-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		472AE2D9CA7C615327528DCA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Manka/Pods-Manka-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/EmptyDataSet-Swift/EmptyDataSet_Swift.framework",
+				"${BUILT_PRODUCTS_DIR}/HMSegmentedControl/HMSegmentedControl.framework",
+				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/LLCycleScrollView/LLCycleScrollView.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/Reusable/Reusable.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKitExtend/SnapKitExtend.framework",
+				"${BUILT_PRODUCTS_DIR}/Then/Then.framework",
+				"${BUILT_PRODUCTS_DIR}/UINavigation-SXFixSpace/UINavigation_SXFixSpace.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EmptyDataSet_Swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HMSegmentedControl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LLCycleScrollView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reusable.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKitExtend.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Then.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UINavigation_SXFixSpace.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Manka/Pods-Manka-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69420DCA57F127D9EFF795C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MankaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D27E4E2724E2D0B6009F3416 /* Sources */ = {
@@ -370,7 +541,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -424,7 +595,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -436,6 +607,7 @@
 		};
 		D27E4E5924E2D0B8009F3416 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A77CA8F20464C3C424D3E35 /* Pods-Manka.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,12 +620,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.sinyuchen.Manka;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		D27E4E5A24E2D0B8009F3416 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61562E0404A98F82C88AEA3A /* Pods-Manka.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,12 +639,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.sinyuchen.Manka;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		D27E4E5C24E2D0B8009F3416 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1468107E0729EDAA4ECB08A /* Pods-MankaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +668,7 @@
 		};
 		D27E4E5D24E2D0B8009F3416 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AC00DDB3A273B4309C7D4F4 /* Pods-MankaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +691,7 @@
 		};
 		D27E4E5F24E2D0B8009F3416 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20B68509286D5F2B000FA412 /* Pods-MankaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -536,6 +712,7 @@
 		};
 		D27E4E6024E2D0B8009F3416 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D1DE57C81A9570CBA1BAE72 /* Pods-MankaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

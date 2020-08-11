@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D27E4DF024E2CFFA009F3416 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E4DEF24E2CFFA009F3416 /* AppDelegate.swift */; };
+		D27E4DF224E2CFFA009F3416 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E4DF124E2CFFA009F3416 /* SceneDelegate.swift */; };
+		D27E4DF424E2CFFA009F3416 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E4DF324E2CFFA009F3416 /* ViewController.swift */; };
+		D27E4DF724E2CFFA009F3416 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D27E4DF524E2CFFA009F3416 /* Main.storyboard */; };
+		D27E4DFA24E2CFFA009F3416 /* Manka.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D27E4DF824E2CFFA009F3416 /* Manka.xcdatamodeld */; };
+		D27E4DFC24E2CFFE009F3416 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D27E4DFB24E2CFFE009F3416 /* Assets.xcassets */; };
+		D27E4DFF24E2CFFE009F3416 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D27E4DFD24E2CFFE009F3416 /* LaunchScreen.storyboard */; };
+		D27E4E0A24E2CFFF009F3416 /* MankaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E4E0924E2CFFF009F3416 /* MankaTests.swift */; };
+		D27E4E1524E2CFFF009F3416 /* MankaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E4E1424E2CFFF009F3416 /* MankaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D27E4E0624E2CFFF009F3416 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D27E4DE424E2CFFA009F3416 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D27E4DEB24E2CFFA009F3416;
+			remoteInfo = Manka;
+		};
+		D27E4E1124E2CFFF009F3416 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D27E4DE424E2CFFA009F3416 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D27E4DEB24E2CFFA009F3416;
+			remoteInfo = Manka;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D27E4DEC24E2CFFA009F3416 /* Manka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Manka.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D27E4DEF24E2CFFA009F3416 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D27E4DF124E2CFFA009F3416 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D27E4DF324E2CFFA009F3416 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D27E4DF624E2CFFA009F3416 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D27E4DF924E2CFFA009F3416 /* Manka.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Manka.xcdatamodel; sourceTree = "<group>"; };
+		D27E4DFB24E2CFFE009F3416 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D27E4DFE24E2CFFE009F3416 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D27E4E0024E2CFFE009F3416 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D27E4E0524E2CFFF009F3416 /* MankaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MankaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D27E4E0924E2CFFF009F3416 /* MankaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MankaTests.swift; sourceTree = "<group>"; };
+		D27E4E0B24E2CFFF009F3416 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D27E4E1024E2CFFF009F3416 /* MankaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MankaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D27E4E1424E2CFFF009F3416 /* MankaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MankaUITests.swift; sourceTree = "<group>"; };
+		D27E4E1624E2CFFF009F3416 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D27E4DE924E2CFFA009F3416 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D27E4E0224E2CFFF009F3416 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D27E4E0D24E2CFFF009F3416 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D27E4DE324E2CFFA009F3416 = {
+			isa = PBXGroup;
+			children = (
+				D27E4DEE24E2CFFA009F3416 /* Manka */,
+				D27E4E0824E2CFFF009F3416 /* MankaTests */,
+				D27E4E1324E2CFFF009F3416 /* MankaUITests */,
+				D27E4DED24E2CFFA009F3416 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D27E4DED24E2CFFA009F3416 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D27E4DEC24E2CFFA009F3416 /* Manka.app */,
+				D27E4E0524E2CFFF009F3416 /* MankaTests.xctest */,
+				D27E4E1024E2CFFF009F3416 /* MankaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D27E4DEE24E2CFFA009F3416 /* Manka */ = {
+			isa = PBXGroup;
+			children = (
+				D27E4DEF24E2CFFA009F3416 /* AppDelegate.swift */,
+				D27E4DF124E2CFFA009F3416 /* SceneDelegate.swift */,
+				D27E4DF324E2CFFA009F3416 /* ViewController.swift */,
+				D27E4DF524E2CFFA009F3416 /* Main.storyboard */,
+				D27E4DFB24E2CFFE009F3416 /* Assets.xcassets */,
+				D27E4DFD24E2CFFE009F3416 /* LaunchScreen.storyboard */,
+				D27E4E0024E2CFFE009F3416 /* Info.plist */,
+				D27E4DF824E2CFFA009F3416 /* Manka.xcdatamodeld */,
+			);
+			path = Manka;
+			sourceTree = "<group>";
+		};
+		D27E4E0824E2CFFF009F3416 /* MankaTests */ = {
+			isa = PBXGroup;
+			children = (
+				D27E4E0924E2CFFF009F3416 /* MankaTests.swift */,
+				D27E4E0B24E2CFFF009F3416 /* Info.plist */,
+			);
+			path = MankaTests;
+			sourceTree = "<group>";
+		};
+		D27E4E1324E2CFFF009F3416 /* MankaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D27E4E1424E2CFFF009F3416 /* MankaUITests.swift */,
+				D27E4E1624E2CFFF009F3416 /* Info.plist */,
+			);
+			path = MankaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D27E4DEB24E2CFFA009F3416 /* Manka */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D27E4E1924E2CFFF009F3416 /* Build configuration list for PBXNativeTarget "Manka" */;
+			buildPhases = (
+				D27E4DE824E2CFFA009F3416 /* Sources */,
+				D27E4DE924E2CFFA009F3416 /* Frameworks */,
+				D27E4DEA24E2CFFA009F3416 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Manka;
+			productName = Manka;
+			productReference = D27E4DEC24E2CFFA009F3416 /* Manka.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D27E4E0424E2CFFF009F3416 /* MankaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D27E4E1C24E2CFFF009F3416 /* Build configuration list for PBXNativeTarget "MankaTests" */;
+			buildPhases = (
+				D27E4E0124E2CFFF009F3416 /* Sources */,
+				D27E4E0224E2CFFF009F3416 /* Frameworks */,
+				D27E4E0324E2CFFF009F3416 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D27E4E0724E2CFFF009F3416 /* PBXTargetDependency */,
+			);
+			name = MankaTests;
+			productName = MankaTests;
+			productReference = D27E4E0524E2CFFF009F3416 /* MankaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D27E4E0F24E2CFFF009F3416 /* MankaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D27E4E1F24E2CFFF009F3416 /* Build configuration list for PBXNativeTarget "MankaUITests" */;
+			buildPhases = (
+				D27E4E0C24E2CFFF009F3416 /* Sources */,
+				D27E4E0D24E2CFFF009F3416 /* Frameworks */,
+				D27E4E0E24E2CFFF009F3416 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D27E4E1224E2CFFF009F3416 /* PBXTargetDependency */,
+			);
+			name = MankaUITests;
+			productName = MankaUITests;
+			productReference = D27E4E1024E2CFFF009F3416 /* MankaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D27E4DE424E2CFFA009F3416 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "CHEN SINYU";
+				TargetAttributes = {
+					D27E4DEB24E2CFFA009F3416 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					D27E4E0424E2CFFF009F3416 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = D27E4DEB24E2CFFA009F3416;
+					};
+					D27E4E0F24E2CFFF009F3416 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = D27E4DEB24E2CFFA009F3416;
+					};
+				};
+			};
+			buildConfigurationList = D27E4DE724E2CFFA009F3416 /* Build configuration list for PBXProject "Manka" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D27E4DE324E2CFFA009F3416;
+			productRefGroup = D27E4DED24E2CFFA009F3416 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D27E4DEB24E2CFFA009F3416 /* Manka */,
+				D27E4E0424E2CFFF009F3416 /* MankaTests */,
+				D27E4E0F24E2CFFF009F3416 /* MankaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D27E4DEA24E2CFFA009F3416 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D27E4DFF24E2CFFE009F3416 /* LaunchScreen.storyboard in Resources */,
+				D27E4DFC24E2CFFE009F3416 /* Assets.xcassets in Resources */,
+				D27E4DF724E2CFFA009F3416 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D27E4E0324E2CFFF009F3416 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D27E4E0E24E2CFFF009F3416 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D27E4DE824E2CFFA009F3416 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D27E4DF424E2CFFA009F3416 /* ViewController.swift in Sources */,
+				D27E4DF024E2CFFA009F3416 /* AppDelegate.swift in Sources */,
+				D27E4DFA24E2CFFA009F3416 /* Manka.xcdatamodeld in Sources */,
+				D27E4DF224E2CFFA009F3416 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D27E4E0124E2CFFF009F3416 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D27E4E0A24E2CFFF009F3416 /* MankaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D27E4E0C24E2CFFF009F3416 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D27E4E1524E2CFFF009F3416 /* MankaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D27E4E0724E2CFFF009F3416 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D27E4DEB24E2CFFA009F3416 /* Manka */;
+			targetProxy = D27E4E0624E2CFFF009F3416 /* PBXContainerItemProxy */;
+		};
+		D27E4E1224E2CFFF009F3416 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D27E4DEB24E2CFFA009F3416 /* Manka */;
+			targetProxy = D27E4E1124E2CFFF009F3416 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D27E4DF524E2CFFA009F3416 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D27E4DF624E2CFFA009F3416 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D27E4DFD24E2CFFE009F3416 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D27E4DFE24E2CFFE009F3416 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D27E4E1724E2CFFF009F3416 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D27E4E1824E2CFFF009F3416 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D27E4E1A24E2CFFF009F3416 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TKUKNKW8ZJ;
+				INFOPLIST_FILE = Manka/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sinyuchen.Manka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D27E4E1B24E2CFFF009F3416 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TKUKNKW8ZJ;
+				INFOPLIST_FILE = Manka/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sinyuchen.Manka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D27E4E1D24E2CFFF009F3416 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TKUKNKW8ZJ;
+				INFOPLIST_FILE = MankaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sinyuchen.MankaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Manka.app/Manka";
+			};
+			name = Debug;
+		};
+		D27E4E1E24E2CFFF009F3416 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TKUKNKW8ZJ;
+				INFOPLIST_FILE = MankaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sinyuchen.MankaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Manka.app/Manka";
+			};
+			name = Release;
+		};
+		D27E4E2024E2CFFF009F3416 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TKUKNKW8ZJ;
+				INFOPLIST_FILE = MankaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sinyuchen.MankaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Manka;
+			};
+			name = Debug;
+		};
+		D27E4E2124E2CFFF009F3416 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TKUKNKW8ZJ;
+				INFOPLIST_FILE = MankaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sinyuchen.MankaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Manka;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D27E4DE724E2CFFA009F3416 /* Build configuration list for PBXProject "Manka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D27E4E1724E2CFFF009F3416 /* Debug */,
+				D27E4E1824E2CFFF009F3416 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D27E4E1924E2CFFF009F3416 /* Build configuration list for PBXNativeTarget "Manka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D27E4E1A24E2CFFF009F3416 /* Debug */,
+				D27E4E1B24E2CFFF009F3416 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D27E4E1C24E2CFFF009F3416 /* Build configuration list for PBXNativeTarget "MankaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D27E4E1D24E2CFFF009F3416 /* Debug */,
+				D27E4E1E24E2CFFF009F3416 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D27E4E1F24E2CFFF009F3416 /* Build configuration list for PBXNativeTarget "MankaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D27E4E2024E2CFFF009F3416 /* Debug */,
+				D27E4E2124E2CFFF009F3416 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D27E4DF824E2CFFA009F3416 /* Manka.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D27E4DF924E2CFFA009F3416 /* Manka.xcdatamodel */,
+			);
+			currentVersion = D27E4DF924E2CFFA009F3416 /* Manka.xcdatamodel */;
+			path = Manka.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D27E4DE424E2CFFA009F3416 /* Project object */;
+}

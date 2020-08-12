@@ -12,6 +12,8 @@ import MJRefresh
 class MankaCateController: MankaBaseController {
     
     private var searchString = ""
+    private var topList = [MankaTopModel]()
+    private var rankList = [MankaRankingModel]()
     
     private lazy var searchButton: UIButton = {
         let searchBtn = UIButton(type: .system)
@@ -26,6 +28,21 @@ class MankaCateController: MankaBaseController {
         return searchBtn
     }()
     
+    private lazy var collectionView: UICollectionView = {
+        let lt = UICollectionViewFlowLayout()
+        lt.minimumLineSpacing = 10
+        lt.minimumInteritemSpacing = 10
+        let collectionView = UICollectionView(frame: CGRect.zero, collectionViewLayout: lt)
+        collectionView.backgroundColor = UIColor.white
+        collectionView.delegate = self
+        collectionView.dataSource = self
+        collectionView.alwaysBounceVertical = true
+        collectionView.register(cellType: MankaRankCollectionViewCell.self)
+        collectionView.register(cellType: MankaTopCollectionViewCell.self)
+        collectionView.uHead = URefreshHeader { [weak self] in self?.setupLoadData() }
+        collectionView.uempty = UEmptyView { [weak self] in self?.setupLoadData() }
+        return collectionView
+    }()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -51,7 +68,10 @@ class MankaCateController: MankaBaseController {
     }
     
     override func setupLayout(){
-      
+        view.addSubview(collectionView)
+        collectionView.snp.makeConstraints{make in
+            make.edges.equalTo(self.view.usnp.edges)
+        }
     }
     
     override func configNavigationBar() {
@@ -69,4 +89,41 @@ class MankaCateController: MankaBaseController {
     
 }
 
-
+extension MankaCateController: UICollectionViewDelegateFlowLayout, UICollectionViewDataSource{
+    func numberOfSections(in collectionView: UICollectionView) -> Int {
+        return 2
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        if section == 0 {
+            return topList.prefix(3).count
+        } else {
+            return rankList.count
+        }
+    }
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        if indexPath.section == 0 {
+            let cell = collectionView.dequeueReusableCell(for: indexPath, cellType: MankaTopCollectionViewCell.self)
+            cell.model = topList[indexPath.row]
+            return cell
+        } else {
+            let cell = collectionView.dequeueReusableCell(for: indexPath, cellType: MankaRankCollectionViewCell.self)
+            cell.model = rankList[indexPath.row]
+            return cell
+        }
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
+        return UIEdgeInsets(top: 10, left: 10, bottom: section == 0 ? 0 : 10, right: 10)
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        let width = floor(Double(screenWidth - 40.0) / 3.0)
+        return CGSize(width: width, height: (indexPath.section == 0 ? 55 : (width * 0.75 + 30)))
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        
+        
+    }
+}

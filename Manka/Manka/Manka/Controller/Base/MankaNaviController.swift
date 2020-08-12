@@ -30,7 +30,7 @@ class MankaNaviController: UINavigationController {
         targetView.addGestureRecognizer(fullScreenGesture)
         interactionGes.isEnabled = false
     }
-   
+    
     override func pushViewController(_ viewController: UIViewController, animated: Bool) {
         if viewControllers.count > 0 { viewController.hidesBottomBarWhenPushed = true }
         super.pushViewController(viewController, animated: animated)

@@ -9,7 +9,7 @@
 import UIKit
 
 class MankaTabBarController: UITabBarController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         tabBar.isTranslucent = false
@@ -17,11 +17,11 @@ class MankaTabBarController: UITabBarController {
     }
     
     func setupLayout(){
-        let classVC = ManKaCateController()
+        let classVC = MankaCateController()
         addChildController(classVC,
-                               title: "カテゴリー",
-                               image: UIImage(named: "tab_class"),
-                               selectedImage: UIImage(named: "tab_class_S"))
+                           title: "カテゴリー",
+                           image: UIImage(named: "tab_class"),
+                           selectedImage: UIImage(named: "tab_class_S"))
     }
     
     func addChildController(_ childController: UIViewController, title:String?, image:UIImage? ,selectedImage:UIImage?) {

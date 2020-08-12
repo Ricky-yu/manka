@@ -9,10 +9,10 @@
 import UIKit
 
 class MankaBaseController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         view.backgroundColor = UIColor.background
         
         if #available(iOS 11.0, *) {
@@ -31,7 +31,7 @@ class MankaBaseController: UIViewController {
     func setupLayout() {}
     
     func configNavigationBar() {
-    
+        
     }
 }
 

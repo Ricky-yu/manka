@@ -9,7 +9,7 @@
 import UIKit
 import MJRefresh
 
-class ManKaCateController: MankaBaseController {
+class MankaCateController: MankaBaseController {
     
     private var searchString = ""
     
@@ -33,7 +33,17 @@ class ManKaCateController: MankaBaseController {
     }
     
     private func setupLoadData() {
-        searchButton.setTitle(self.searchString, for: .normal)
+        ApiLoadingProvider.request(MankaApi.cateList, model: MankaCateListModel.self) { (returnData) in
+            self.collectionView.uempty!.allowShow = true
+            
+            self.searchString = returnData?.recommendSearch ?? ""
+            self.topList = returnData?.topList ?? []
+            self.rankList = returnData?.rankingList ?? []
+            
+            self.searchButton.setTitle(self.searchString, for: .normal)
+            self.collectionView.reloadData()
+            self.collectionView.uHead.endRefreshing()
+        }
     }
     
     @objc private func searchButtonClick() {

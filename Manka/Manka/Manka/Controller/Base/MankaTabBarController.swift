@@ -19,7 +19,7 @@ class MankaTabBarController: UITabBarController {
     func setupLayout(){
         let classVC = MankaCateController()
         addChildController(classVC,
-                           title: "カテゴリー",
+                           title: "分類",
                            image: UIImage(named: "tab_class"),
                            selectedImage: UIImage(named: "tab_class_S"))
     }

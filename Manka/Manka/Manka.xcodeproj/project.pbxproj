@@ -17,6 +17,10 @@
 		D2351D0124E43A2E005C16FF /* MankaAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2351D0024E43A2E005C16FF /* MankaAPI.swift */; };
 		D2351D0424E43E09005C16FF /* Refresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2351D0324E43E09005C16FF /* Refresh.swift */; };
 		D2351D0624E43E7B005C16FF /* EmptyDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2351D0524E43E7B005C16FF /* EmptyDataSet.swift */; };
+		D2351D0C24E7C9C0005C16FF /* MankaPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2351D0B24E7C9C0005C16FF /* MankaPageController.swift */; };
+		D2351D0E24E7CD69005C16FF /* MankaComicListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2351D0D24E7CD69005C16FF /* MankaComicListController.swift */; };
+		D2351D1224E7D90C005C16FF /* MankaComicTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2351D1124E7D90C005C16FF /* MankaComicTVCell.swift */; };
+		D2351D1524E7D9A1005C16FF /* MankaBaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2351D1424E7D9A1005C16FF /* MankaBaseTableViewCell.swift */; };
 		D27E4E2F24E2D0B6009F3416 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E4E2E24E2D0B6009F3416 /* AppDelegate.swift */; };
 		D27E4E3124E2D0B6009F3416 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E4E3024E2D0B6009F3416 /* SceneDelegate.swift */; };
 		D27E4E3324E2D0B6009F3416 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E4E3224E2D0B6009F3416 /* ViewController.swift */; };
@@ -65,6 +69,10 @@
 		D2351D0024E43A2E005C16FF /* MankaAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MankaAPI.swift; sourceTree = "<group>"; };
 		D2351D0324E43E09005C16FF /* Refresh.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Refresh.swift; sourceTree = "<group>"; };
 		D2351D0524E43E7B005C16FF /* EmptyDataSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyDataSet.swift; sourceTree = "<group>"; };
+		D2351D0B24E7C9C0005C16FF /* MankaPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MankaPageController.swift; sourceTree = "<group>"; };
+		D2351D0D24E7CD69005C16FF /* MankaComicListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MankaComicListController.swift; sourceTree = "<group>"; };
+		D2351D1124E7D90C005C16FF /* MankaComicTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MankaComicTVCell.swift; sourceTree = "<group>"; };
+		D2351D1424E7D9A1005C16FF /* MankaBaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MankaBaseTableViewCell.swift; sourceTree = "<group>"; };
 		D27E4E2B24E2D0B6009F3416 /* Manka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Manka.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D27E4E2E24E2D0B6009F3416 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D27E4E3024E2D0B6009F3416 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -142,6 +150,15 @@
 				D2351D0524E43E7B005C16FF /* EmptyDataSet.swift */,
 			);
 			path = Common;
+			sourceTree = "<group>";
+		};
+		D2351D1324E7D94F005C16FF /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				D2351CFB24E43025005C16FF /* MankaBaseCollectionViewCell.swift */,
+				D2351D1424E7D9A1005C16FF /* MankaBaseTableViewCell.swift */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 		D27E4E2224E2D0B6009F3416 = {
@@ -225,6 +242,7 @@
 		D2B4BE1024E2E10B001546C3 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				D2351D1324E7D94F005C16FF /* Base */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -243,7 +261,7 @@
 				D2B4BE1324E2E327001546C3 /* MankaBaseController.swift */,
 				D2B4BE1124E2E160001546C3 /* MankaTabBarController.swift */,
 				D2B4BE1F24E2EFBB001546C3 /* MankaNaviController.swift */,
-				D2351CFB24E43025005C16FF /* MankaBaseCollectionViewCell.swift */,
+				D2351D0B24E7C9C0005C16FF /* MankaPageController.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -262,6 +280,7 @@
 			isa = PBXGroup;
 			children = (
 				D2B4BE1D24E2E881001546C3 /* MankaCateController.swift */,
+				D2351D0D24E7CD69005C16FF /* MankaComicListController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -271,6 +290,7 @@
 			children = (
 				D2351CF924E42E82005C16FF /* MankaRankCollectionViewCell.swift */,
 				D2351CFD24E43920005C16FF /* MankaTopCollectionViewCell.swift */,
+				D2351D1124E7D90C005C16FF /* MankaComicTVCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -559,13 +579,17 @@
 			files = (
 				D2B4BE1224E2E160001546C3 /* MankaTabBarController.swift in Sources */,
 				D2B4BE1724E2E3AD001546C3 /* MankaSetting.swift in Sources */,
+				D2351D1224E7D90C005C16FF /* MankaComicTVCell.swift in Sources */,
 				D2351D0624E43E7B005C16FF /* EmptyDataSet.swift in Sources */,
 				D2351CFA24E42E82005C16FF /* MankaRankCollectionViewCell.swift in Sources */,
 				D2B4BE2024E2EFBB001546C3 /* MankaNaviController.swift in Sources */,
 				D27E4E3324E2D0B6009F3416 /* ViewController.swift in Sources */,
 				D27E4E2F24E2D0B6009F3416 /* AppDelegate.swift in Sources */,
 				D2B4BE1424E2E327001546C3 /* MankaBaseController.swift in Sources */,
+				D2351D1524E7D9A1005C16FF /* MankaBaseTableViewCell.swift in Sources */,
+				D2351D0C24E7C9C0005C16FF /* MankaPageController.swift in Sources */,
 				D2B4BE1E24E2E881001546C3 /* MankaCateController.swift in Sources */,
+				D2351D0E24E7CD69005C16FF /* MankaComicListController.swift in Sources */,
 				D2351CFE24E43920005C16FF /* MankaTopCollectionViewCell.swift in Sources */,
 				D27E4E3924E2D0B6009F3416 /* Manka.xcdatamodeld in Sources */,
 				D2351CF824E42C38005C16FF /* MankaModel.swift in Sources */,

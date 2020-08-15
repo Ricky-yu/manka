@@ -64,7 +64,7 @@ class MankaCateController: MankaBaseController {
     }
     
     @objc private func searchButtonClick() {
-        
+        //navigationController?.pushViewController(, animated: <#T##Bool#>)
     }
     
     override func setupLayout(){
@@ -124,6 +124,13 @@ extension MankaCateController: UICollectionViewDelegateFlowLayout, UICollectionV
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         
+        
+        let model = rankList[indexPath.row]
+        let vc = MankaComicListController(argCon: model.argCon,
+                                          argName: model.argName,
+                                          argValue: model.argValue)
+        vc.title = model.sortName
+        navigationController?.pushViewController(vc, animated: true)
         
     }
 }

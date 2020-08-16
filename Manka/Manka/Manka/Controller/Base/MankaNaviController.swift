@@ -58,6 +58,7 @@ extension MankaNaviController {
 }
 
 enum LBUNavigationBarStyle {
+    case blue
     case theme
     case clear
     case white
@@ -80,6 +81,9 @@ extension UINavigationController {
     
     func barStyle(_ style: LBUNavigationBarStyle) {
         switch style {
+        case .blue:
+            navigationBar.barStyle = .black
+            navigationBar.backgroundColor = UIColor.nvblue
         case .theme:
             navigationBar.barStyle = .black
             navigationBar.setBackgroundImage(UIImage(named: "nav_bg"), for: .default)

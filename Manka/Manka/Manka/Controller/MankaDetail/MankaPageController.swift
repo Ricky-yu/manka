@@ -21,6 +21,7 @@ class MankaPageController: MankaBaseController {
     
     lazy var segment: HMSegmentedControl = {
         let seg = HMSegmentedControl()
+        seg.addTarget(self, action: #selector(changeIndex(segment:)), for: .valueChanged)
         return seg
         
     }()

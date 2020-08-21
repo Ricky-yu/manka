@@ -29,6 +29,12 @@ class MankaDetailViewController: MankaBaseController {
         return detailVC
     }()
     
+    private lazy var chapterVC: MnakaChapterController = {
+        let chapterVC = MnakaChapterController()
+        chapterVC.delegate = self
+        return chapterVC
+    }()
+    
     
     private lazy var navigationBarY: CGFloat = {
         return navigationController?.navigationBar.frame.maxY ?? 0
@@ -37,8 +43,8 @@ class MankaDetailViewController: MankaBaseController {
     
     
     private lazy var pageVC: MankaPageController = {
-        return MankaPageController(titles: ["详情"],
-                                   vcs: [detailVC],
+        return MankaPageController(titles: ["详情", "目录"],
+                                   vcs: [detailVC, chapterVC],
                                    pageStyle: .topTabBar)
     }()
     
@@ -74,7 +80,7 @@ class MankaDetailViewController: MankaBaseController {
                                     self?.headView.detailStatic = detailStatic?.comic
                                     
                                     self?.detailVC.detailStatic = detailStatic
-                                    
+                                    self?.chapterVC.detailStatic = detailStatic
                                     
                                     ApiProvider.request(MankaApi.commentList(object_id: detailStatic?.comic?.comic_id ?? 0,
                                                                              thread_id: detailStatic?.comic?.thread_id ?? 0,
@@ -93,7 +99,7 @@ class MankaDetailViewController: MankaBaseController {
                                 self?.headView.detailRealtime = returnData?.comic
                                 
                                 self?.detailVC.detailRealtime = returnData
-                                
+                                self?.chapterVC.detailRealtime = returnData
                                 
                                 grpup.leave()
         }
@@ -106,7 +112,7 @@ class MankaDetailViewController: MankaBaseController {
         
         grpup.notify(queue: DispatchQueue.main) {
             self.detailVC.reloadData()
-            
+            self.chapterVC.reloadData()
         }
     }
     

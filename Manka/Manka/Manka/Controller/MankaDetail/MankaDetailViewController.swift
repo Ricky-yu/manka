@@ -100,7 +100,7 @@ class MankaDetailViewController: MankaBaseController {
         
         grpup.enter()
         ApiProvider.request(MankaApi.guessLike, model: MankaGuessLikeModel.self) { (returnData) in
-            
+            self.detailVC.guessLike = returnData
             grpup.leave()
         }
         
@@ -109,7 +109,6 @@ class MankaDetailViewController: MankaBaseController {
             
         }
     }
-    
     
     override func setupLayout() {
         view.addSubview(mainScrollView)

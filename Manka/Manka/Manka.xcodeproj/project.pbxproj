@@ -11,16 +11,31 @@
 		858CEFB4865147906ECA6DF3 /* Pods_MankaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0EDE390CEA1D3CB3103F486 /* Pods_MankaTests.framework */; };
 		8836B3244D4BC907F42D3DFA /* Pods_Manka.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9A4DB3E24DBAECD32DFD78E /* Pods_Manka.framework */; };
 		D2351CF824E42C38005C16FF /* MankaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2351CF724E42C38005C16FF /* MankaModel.swift */; };
-		D2351CFA24E42E82005C16FF /* MankaRankCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2351CF924E42E82005C16FF /* MankaRankCollectionViewCell.swift */; };
+		D2351CFA24E42E82005C16FF /* MankaCateRankCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2351CF924E42E82005C16FF /* MankaCateRankCollectionViewCell.swift */; };
 		D2351CFC24E43025005C16FF /* MankaBaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2351CFB24E43025005C16FF /* MankaBaseCollectionViewCell.swift */; };
-		D2351CFE24E43920005C16FF /* MankaTopCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2351CFD24E43920005C16FF /* MankaTopCollectionViewCell.swift */; };
+		D2351CFE24E43920005C16FF /* MankaCateTopCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2351CFD24E43920005C16FF /* MankaCateTopCollectionViewCell.swift */; };
 		D2351D0124E43A2E005C16FF /* MankaAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2351D0024E43A2E005C16FF /* MankaAPI.swift */; };
 		D2351D0424E43E09005C16FF /* Refresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2351D0324E43E09005C16FF /* Refresh.swift */; };
 		D2351D0624E43E7B005C16FF /* EmptyDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2351D0524E43E7B005C16FF /* EmptyDataSet.swift */; };
 		D2351D0C24E7C9C0005C16FF /* MankaPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2351D0B24E7C9C0005C16FF /* MankaPageController.swift */; };
-		D2351D0E24E7CD69005C16FF /* MankaComicListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2351D0D24E7CD69005C16FF /* MankaComicListController.swift */; };
-		D2351D1224E7D90C005C16FF /* MankaComicTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2351D1124E7D90C005C16FF /* MankaComicTVCell.swift */; };
+		D2351D0E24E7CD69005C16FF /* MankaCateListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2351D0D24E7CD69005C16FF /* MankaCateListController.swift */; };
+		D2351D1224E7D90C005C16FF /* MankaCateListTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2351D1124E7D90C005C16FF /* MankaCateListTVCell.swift */; };
 		D2351D1524E7D9A1005C16FF /* MankaBaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2351D1424E7D9A1005C16FF /* MankaBaseTableViewCell.swift */; };
+		D2351D2224E8F29A005C16FF /* MankaDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2351D2124E8F29A005C16FF /* MankaDetailViewController.swift */; };
+		D2351D2524E908CA005C16FF /* ParallaxHeaderMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2351D2424E908CA005C16FF /* ParallaxHeaderMode.swift */; };
+		D2351D2824E908EE005C16FF /* UIScrollView+ParallaxHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2351D2724E908EE005C16FF /* UIScrollView+ParallaxHeader.swift */; };
+		D2351D2A24E90904005C16FF /* ParallaxHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2351D2924E90904005C16FF /* ParallaxHeader.swift */; };
+		D2351D2D24E909E0005C16FF /* MankaDetailHeadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2351D2C24E909E0005C16FF /* MankaDetailHeadView.swift */; };
+		D2351D3224E91B4C005C16FF /* MankaContentDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2351D3124E91B4C005C16FF /* MankaContentDetailController.swift */; };
+		D2351D3424E94615005C16FF /* MankaDescriptionTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2351D3324E94615005C16FF /* MankaDescriptionTCell.swift */; };
+		D2351D3624E94627005C16FF /* MankaOtherWorksTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2351D3524E94627005C16FF /* MankaOtherWorksTCell.swift */; };
+		D2351D3824E94639005C16FF /* MankaTicketTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2351D3724E94639005C16FF /* MankaTicketTVCell.swift */; };
+		D2351D3A24E94648005C16FF /* MankaGuessLikeTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2351D3924E94648005C16FF /* MankaGuessLikeTVCell.swift */; };
+		D2351D3F24E949E5005C16FF /* MankaComicCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2351D3E24E949E5005C16FF /* MankaComicCollectionViewCell.swift */; };
+		D271960624F01951007CB80E /* MnakaChapterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D271960524F01951007CB80E /* MnakaChapterController.swift */; };
+		D271960824F01BE4007CB80E /* MankaChapterHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D271960724F01BE4007CB80E /* MankaChapterHeaderView.swift */; };
+		D271960A24F01FD6007CB80E /* MankaBaseCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D271960924F01FD6007CB80E /* MankaBaseCollectionReusableView.swift */; };
+		D271960C24F0262B007CB80E /* MankaChapterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D271960B24F0262B007CB80E /* MankaChapterCollectionViewCell.swift */; };
 		D27E4E2F24E2D0B6009F3416 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E4E2E24E2D0B6009F3416 /* AppDelegate.swift */; };
 		D27E4E3124E2D0B6009F3416 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E4E3024E2D0B6009F3416 /* SceneDelegate.swift */; };
 		D27E4E3324E2D0B6009F3416 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E4E3224E2D0B6009F3416 /* ViewController.swift */; };
@@ -63,16 +78,31 @@
 		9AC00DDB3A273B4309C7D4F4 /* Pods-MankaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MankaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MankaTests/Pods-MankaTests.release.xcconfig"; sourceTree = "<group>"; };
 		A0EDE390CEA1D3CB3103F486 /* Pods_MankaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MankaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2351CF724E42C38005C16FF /* MankaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MankaModel.swift; sourceTree = "<group>"; };
-		D2351CF924E42E82005C16FF /* MankaRankCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MankaRankCollectionViewCell.swift; sourceTree = "<group>"; };
+		D2351CF924E42E82005C16FF /* MankaCateRankCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MankaCateRankCollectionViewCell.swift; sourceTree = "<group>"; };
 		D2351CFB24E43025005C16FF /* MankaBaseCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MankaBaseCollectionViewCell.swift; sourceTree = "<group>"; };
-		D2351CFD24E43920005C16FF /* MankaTopCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MankaTopCollectionViewCell.swift; sourceTree = "<group>"; };
+		D2351CFD24E43920005C16FF /* MankaCateTopCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MankaCateTopCollectionViewCell.swift; sourceTree = "<group>"; };
 		D2351D0024E43A2E005C16FF /* MankaAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MankaAPI.swift; sourceTree = "<group>"; };
 		D2351D0324E43E09005C16FF /* Refresh.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Refresh.swift; sourceTree = "<group>"; };
 		D2351D0524E43E7B005C16FF /* EmptyDataSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyDataSet.swift; sourceTree = "<group>"; };
 		D2351D0B24E7C9C0005C16FF /* MankaPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MankaPageController.swift; sourceTree = "<group>"; };
-		D2351D0D24E7CD69005C16FF /* MankaComicListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MankaComicListController.swift; sourceTree = "<group>"; };
-		D2351D1124E7D90C005C16FF /* MankaComicTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MankaComicTVCell.swift; sourceTree = "<group>"; };
+		D2351D0D24E7CD69005C16FF /* MankaCateListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MankaCateListController.swift; sourceTree = "<group>"; };
+		D2351D1124E7D90C005C16FF /* MankaCateListTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MankaCateListTVCell.swift; sourceTree = "<group>"; };
 		D2351D1424E7D9A1005C16FF /* MankaBaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MankaBaseTableViewCell.swift; sourceTree = "<group>"; };
+		D2351D2124E8F29A005C16FF /* MankaDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MankaDetailViewController.swift; sourceTree = "<group>"; };
+		D2351D2424E908CA005C16FF /* ParallaxHeaderMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxHeaderMode.swift; sourceTree = "<group>"; };
+		D2351D2724E908EE005C16FF /* UIScrollView+ParallaxHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScrollView+ParallaxHeader.swift"; sourceTree = "<group>"; };
+		D2351D2924E90904005C16FF /* ParallaxHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxHeader.swift; sourceTree = "<group>"; };
+		D2351D2C24E909E0005C16FF /* MankaDetailHeadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MankaDetailHeadView.swift; sourceTree = "<group>"; };
+		D2351D3124E91B4C005C16FF /* MankaContentDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MankaContentDetailController.swift; sourceTree = "<group>"; };
+		D2351D3324E94615005C16FF /* MankaDescriptionTCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MankaDescriptionTCell.swift; sourceTree = "<group>"; };
+		D2351D3524E94627005C16FF /* MankaOtherWorksTCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MankaOtherWorksTCell.swift; sourceTree = "<group>"; };
+		D2351D3724E94639005C16FF /* MankaTicketTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MankaTicketTVCell.swift; sourceTree = "<group>"; };
+		D2351D3924E94648005C16FF /* MankaGuessLikeTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MankaGuessLikeTVCell.swift; sourceTree = "<group>"; };
+		D2351D3E24E949E5005C16FF /* MankaComicCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MankaComicCollectionViewCell.swift; sourceTree = "<group>"; };
+		D271960524F01951007CB80E /* MnakaChapterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MnakaChapterController.swift; sourceTree = "<group>"; };
+		D271960724F01BE4007CB80E /* MankaChapterHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MankaChapterHeaderView.swift; sourceTree = "<group>"; };
+		D271960924F01FD6007CB80E /* MankaBaseCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MankaBaseCollectionReusableView.swift; sourceTree = "<group>"; };
+		D271960B24F0262B007CB80E /* MankaChapterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MankaChapterCollectionViewCell.swift; sourceTree = "<group>"; };
 		D27E4E2B24E2D0B6009F3416 /* Manka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Manka.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D27E4E2E24E2D0B6009F3416 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D27E4E3024E2D0B6009F3416 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -146,6 +176,7 @@
 		D2351D0224E43DD5005C16FF /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				D2351D2324E908A5005C16FF /* ParallaxHeader */,
 				D2351D0324E43E09005C16FF /* Refresh.swift */,
 				D2351D0524E43E7B005C16FF /* EmptyDataSet.swift */,
 			);
@@ -157,8 +188,103 @@
 			children = (
 				D2351CFB24E43025005C16FF /* MankaBaseCollectionViewCell.swift */,
 				D2351D1424E7D9A1005C16FF /* MankaBaseTableViewCell.swift */,
+				D271960924F01FD6007CB80E /* MankaBaseCollectionReusableView.swift */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		D2351D1E24E8F15D005C16FF /* MankaCate */ = {
+			isa = PBXGroup;
+			children = (
+				D2351D1124E7D90C005C16FF /* MankaCateListTVCell.swift */,
+				D2351CF924E42E82005C16FF /* MankaCateRankCollectionViewCell.swift */,
+				D2351CFD24E43920005C16FF /* MankaCateTopCollectionViewCell.swift */,
+			);
+			path = MankaCate;
+			sourceTree = "<group>";
+		};
+		D2351D1F24E8F17F005C16FF /* MankaDetail */ = {
+			isa = PBXGroup;
+			children = (
+				D2351D3024E91B23005C16FF /* Chapter */,
+				D2351D2F24E91B17005C16FF /* Comment */,
+				D2351D2E24E91AFE005C16FF /* Detail */,
+				D2351D2124E8F29A005C16FF /* MankaDetailViewController.swift */,
+				D2351D0B24E7C9C0005C16FF /* MankaPageController.swift */,
+			);
+			path = MankaDetail;
+			sourceTree = "<group>";
+		};
+		D2351D2024E8F1D2005C16FF /* MankaDetail */ = {
+			isa = PBXGroup;
+			children = (
+				D2351D3D24E949AE005C16FF /* Chapter */,
+				D2351D3C24E949A6005C16FF /* Comment */,
+				D2351D3B24E94997005C16FF /* Detail */,
+				D2351D2C24E909E0005C16FF /* MankaDetailHeadView.swift */,
+			);
+			path = MankaDetail;
+			sourceTree = "<group>";
+		};
+		D2351D2324E908A5005C16FF /* ParallaxHeader */ = {
+			isa = PBXGroup;
+			children = (
+				D2351D2424E908CA005C16FF /* ParallaxHeaderMode.swift */,
+				D2351D2724E908EE005C16FF /* UIScrollView+ParallaxHeader.swift */,
+				D2351D2924E90904005C16FF /* ParallaxHeader.swift */,
+			);
+			path = ParallaxHeader;
+			sourceTree = "<group>";
+		};
+		D2351D2E24E91AFE005C16FF /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				D2351D3124E91B4C005C16FF /* MankaContentDetailController.swift */,
+				D271960524F01951007CB80E /* MnakaChapterController.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		D2351D2F24E91B17005C16FF /* Comment */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Comment;
+			sourceTree = "<group>";
+		};
+		D2351D3024E91B23005C16FF /* Chapter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Chapter;
+			sourceTree = "<group>";
+		};
+		D2351D3B24E94997005C16FF /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				D2351D3524E94627005C16FF /* MankaOtherWorksTCell.swift */,
+				D2351D3724E94639005C16FF /* MankaTicketTVCell.swift */,
+				D2351D3924E94648005C16FF /* MankaGuessLikeTVCell.swift */,
+				D2351D3324E94615005C16FF /* MankaDescriptionTCell.swift */,
+				D2351D3E24E949E5005C16FF /* MankaComicCollectionViewCell.swift */,
+				D271960724F01BE4007CB80E /* MankaChapterHeaderView.swift */,
+				D271960B24F0262B007CB80E /* MankaChapterCollectionViewCell.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		D2351D3C24E949A6005C16FF /* Comment */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Comment;
+			sourceTree = "<group>";
+		};
+		D2351D3D24E949AE005C16FF /* Chapter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Chapter;
 			sourceTree = "<group>";
 		};
 		D27E4E2224E2D0B6009F3416 = {
@@ -225,6 +351,7 @@
 		D2B4BE0E24E2E0DF001546C3 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				D2351D1F24E8F17F005C16FF /* MankaDetail */,
 				D2B4BE1924E2E7F5001546C3 /* MankaCate */,
 				D2B4BE1824E2E7E7001546C3 /* Base */,
 			);
@@ -242,6 +369,8 @@
 		D2B4BE1024E2E10B001546C3 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				D2351D2024E8F1D2005C16FF /* MankaDetail */,
+				D2351D1E24E8F15D005C16FF /* MankaCate */,
 				D2351D1324E7D94F005C16FF /* Base */,
 			);
 			path = View;
@@ -261,7 +390,6 @@
 				D2B4BE1324E2E327001546C3 /* MankaBaseController.swift */,
 				D2B4BE1124E2E160001546C3 /* MankaTabBarController.swift */,
 				D2B4BE1F24E2EFBB001546C3 /* MankaNaviController.swift */,
-				D2351D0B24E7C9C0005C16FF /* MankaPageController.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -269,8 +397,6 @@
 		D2B4BE1924E2E7F5001546C3 /* MankaCate */ = {
 			isa = PBXGroup;
 			children = (
-				D2B4BE1C24E2E842001546C3 /* Model */,
-				D2B4BE1B24E2E83C001546C3 /* View */,
 				D2B4BE1A24E2E82D001546C3 /* Controller */,
 			);
 			path = MankaCate;
@@ -280,26 +406,9 @@
 			isa = PBXGroup;
 			children = (
 				D2B4BE1D24E2E881001546C3 /* MankaCateController.swift */,
-				D2351D0D24E7CD69005C16FF /* MankaComicListController.swift */,
+				D2351D0D24E7CD69005C16FF /* MankaCateListController.swift */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		D2B4BE1B24E2E83C001546C3 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				D2351CF924E42E82005C16FF /* MankaRankCollectionViewCell.swift */,
-				D2351CFD24E43920005C16FF /* MankaTopCollectionViewCell.swift */,
-				D2351D1124E7D90C005C16FF /* MankaComicTVCell.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		D2B4BE1C24E2E842001546C3 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		F9AA233CD32F3CAEC44622CE /* Pods */ = {
@@ -579,22 +688,37 @@
 			files = (
 				D2B4BE1224E2E160001546C3 /* MankaTabBarController.swift in Sources */,
 				D2B4BE1724E2E3AD001546C3 /* MankaSetting.swift in Sources */,
-				D2351D1224E7D90C005C16FF /* MankaComicTVCell.swift in Sources */,
+				D2351D1224E7D90C005C16FF /* MankaCateListTVCell.swift in Sources */,
+				D2351D2824E908EE005C16FF /* UIScrollView+ParallaxHeader.swift in Sources */,
 				D2351D0624E43E7B005C16FF /* EmptyDataSet.swift in Sources */,
-				D2351CFA24E42E82005C16FF /* MankaRankCollectionViewCell.swift in Sources */,
+				D2351CFA24E42E82005C16FF /* MankaCateRankCollectionViewCell.swift in Sources */,
+				D2351D3824E94639005C16FF /* MankaTicketTVCell.swift in Sources */,
 				D2B4BE2024E2EFBB001546C3 /* MankaNaviController.swift in Sources */,
 				D27E4E3324E2D0B6009F3416 /* ViewController.swift in Sources */,
 				D27E4E2F24E2D0B6009F3416 /* AppDelegate.swift in Sources */,
+				D271960624F01951007CB80E /* MnakaChapterController.swift in Sources */,
 				D2B4BE1424E2E327001546C3 /* MankaBaseController.swift in Sources */,
 				D2351D1524E7D9A1005C16FF /* MankaBaseTableViewCell.swift in Sources */,
 				D2351D0C24E7C9C0005C16FF /* MankaPageController.swift in Sources */,
+				D2351D2224E8F29A005C16FF /* MankaDetailViewController.swift in Sources */,
+				D2351D3624E94627005C16FF /* MankaOtherWorksTCell.swift in Sources */,
+				D2351D3A24E94648005C16FF /* MankaGuessLikeTVCell.swift in Sources */,
+				D271960C24F0262B007CB80E /* MankaChapterCollectionViewCell.swift in Sources */,
 				D2B4BE1E24E2E881001546C3 /* MankaCateController.swift in Sources */,
-				D2351D0E24E7CD69005C16FF /* MankaComicListController.swift in Sources */,
-				D2351CFE24E43920005C16FF /* MankaTopCollectionViewCell.swift in Sources */,
+				D2351D0E24E7CD69005C16FF /* MankaCateListController.swift in Sources */,
+				D271960A24F01FD6007CB80E /* MankaBaseCollectionReusableView.swift in Sources */,
+				D2351CFE24E43920005C16FF /* MankaCateTopCollectionViewCell.swift in Sources */,
+				D2351D3424E94615005C16FF /* MankaDescriptionTCell.swift in Sources */,
 				D27E4E3924E2D0B6009F3416 /* Manka.xcdatamodeld in Sources */,
 				D2351CF824E42C38005C16FF /* MankaModel.swift in Sources */,
 				D2351D0124E43A2E005C16FF /* MankaAPI.swift in Sources */,
+				D2351D2524E908CA005C16FF /* ParallaxHeaderMode.swift in Sources */,
 				D2351D0424E43E09005C16FF /* Refresh.swift in Sources */,
+				D2351D2D24E909E0005C16FF /* MankaDetailHeadView.swift in Sources */,
+				D2351D2A24E90904005C16FF /* ParallaxHeader.swift in Sources */,
+				D2351D3F24E949E5005C16FF /* MankaComicCollectionViewCell.swift in Sources */,
+				D2351D3224E91B4C005C16FF /* MankaContentDetailController.swift in Sources */,
+				D271960824F01BE4007CB80E /* MankaChapterHeaderView.swift in Sources */,
 				D2351CFC24E43025005C16FF /* MankaBaseCollectionViewCell.swift in Sources */,
 				D27E4E3124E2D0B6009F3416 /* SceneDelegate.swift in Sources */,
 			);

@@ -9,6 +9,18 @@
 import HandyJSON
 
 
+struct MankaImageModel: HandyJSON {
+    var location: String?
+    var image_id: Int = 0
+    var width: Int = 0
+    var height: Int = 0
+    var total_tucao: Int = 0
+    var webp: Int = 0
+    var type: Int = 0
+    var img05: String?
+    var img50: String?
+}
+
 enum MankaComicType: Int, HandyJSONEnum {
     case none = 0
     case update = 3
@@ -161,6 +173,13 @@ struct MankaDetailStaticModel: HandyJSON {
     var comic: MankaComicStaticModel?
     var chapter_list: [MankaChapterStaticModel]?
     var otherWorks: [MankaOtherWorkModel]?
+}
+
+struct MankaChapterModel: HandyJSON {
+    var status: Int = 0
+    var chapter_id: Int = 0
+    var type: Int = 0
+    var image_list: [MankaImageModel]?
 }
 
 struct MankaDetailRealtimeModel: HandyJSON {

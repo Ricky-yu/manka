@@ -90,6 +90,7 @@ extension MnakaChapterController: UICollectionViewDelegateFlowLayout, UICollecti
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let index = isPositive ? indexPath.row : ((detailStatic?.chapter_list?.count)! - indexPath.row - 1)
-      
+        let vc = MankaChapterReadController(detailStatic: detailStatic, selectIndex: index)
+        navigationController?.pushViewController(vc, animated: true)
     }
 }

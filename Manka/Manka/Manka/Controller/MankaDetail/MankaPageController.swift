@@ -109,7 +109,7 @@ class MankaPageController: MankaBaseController {
         guard let titles = titles else { return }
         segment.sectionTitles = titles
         currentSelectIndex = 0
-        segment.selectedSegmentIndex = currentSelectIndex
+        segment.selectedSegmentIndex = UInt(currentSelectIndex)
     }
 }
 

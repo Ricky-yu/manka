@@ -20,7 +20,7 @@ class MankaReadCollectionViewCell: MankaBaseCollectionViewCell {
     }()
     
     lazy var placeholder: UIImageView = {
-        let placeholder = UIImageView(image: UIImage(named: "yaofan"))
+        let placeholder = UIImageView(image: UIImage(named: "loading"))
         placeholder.contentMode = .center
         return placeholder
     }()

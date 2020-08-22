@@ -22,7 +22,7 @@ extension UIColor {
         return UIColor(red: 242/255, green: 242/255, blue: 242/255, alpha: 1.0)
     }
     class var nvblue: UIColor {
-        return UIColor(red: 100/255, green: 149/255, blue: 237/255, alpha: 1.0)
+        return UIColor(red: 24/255, green: 136/255, blue: 146/255, alpha: 1.0)
     }
     
     func image() -> UIImage {

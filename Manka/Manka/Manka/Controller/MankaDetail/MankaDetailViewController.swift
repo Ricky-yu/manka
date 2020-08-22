@@ -144,7 +144,6 @@ class MankaDetailViewController: MankaBaseController {
     override func configNavigationBar() {
         super.configNavigationBar()
         navigationController?.barStyle(.clear)
-        mainScrollView.contentOffset = CGPoint(x: 0, y: -mainScrollView.parallaxHeader.height)
     }
     
 }

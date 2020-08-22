@@ -84,10 +84,10 @@ class MankaPageController: MankaBaseController {
         case .topTabBar?:
             segment.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.black,
                                            NSAttributedString.Key.font: UIFont.systemFont(ofSize: 15)]
-            segment.selectedTitleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor(red: 127/255, green: 221/255, blue: 146/255, alpha: 1.0),
+            segment.selectedTitleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.nvblue,
                                                    NSAttributedString.Key.font: UIFont.systemFont(ofSize: 15)]
             segment.selectionIndicatorLocation = .down
-            segment.selectionIndicatorColor = UIColor(red: 127/255, green: 221/255, blue: 146/255, alpha: 1.0)
+            segment.selectionIndicatorColor = UIColor.nvblue
             segment.selectionIndicatorHeight = 2
             segment.borderType = .bottom
             segment.borderColor = UIColor.lightGray

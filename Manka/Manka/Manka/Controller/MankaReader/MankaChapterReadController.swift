@@ -167,7 +167,7 @@ class MankaChapterReadController: MankaBaseController {
         navigationController?.barStyle(.white)
         navigationController?.setNavigationBarHidden(true, animated: true)
         let button = UIButton(type: .custom)
-        button.setImage(UIImage(named: "nav_back_black"), for: .normal)
+        button.setImage(UIImage(named: "nav_back_white"), for: .normal)
         button.addTarget(self, action: #selector(pressBack), for: .touchUpInside)
         navigationItem.leftBarButtonItem = UIBarButtonItem(customView: button)
         navigationController?.disablePopGesture = true

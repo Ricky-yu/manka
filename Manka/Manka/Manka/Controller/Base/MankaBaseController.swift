@@ -40,11 +40,11 @@ class MankaBaseController: UIViewController {
             navi.barStyle(.theme)
             navi.disablePopGesture = false
             navi.setNavigationBarHidden(false, animated: true)
-            if navi.viewControllers.count > 1 {
-                navigationItem.leftBarButtonItem =  UIBarButtonItem(image:UIImage(named: "nav_back_white"),style: .plain,
-                                                                    target: self,
-                                                                    action: #selector(pressBack))
-            }
+            let button = UIButton(type: .custom)
+            button.setImage(UIImage(named: "nav_back_white"), for: .normal)
+            button.addTarget(self, action: #selector(pressBack), for: .touchUpInside)
+            navigationItem.leftBarButtonItem = UIBarButtonItem(customView: button)
+            
         }
     }
     

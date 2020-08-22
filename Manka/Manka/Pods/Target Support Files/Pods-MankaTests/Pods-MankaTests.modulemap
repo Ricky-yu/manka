@@ -1,6 +1,0 @@
-framework module Pods_MankaTests {
-  umbrella header "Pods-MankaTests-umbrella.h"
-
-  export *
-  module * { export * }
-}

@@ -52,11 +52,8 @@ class MankaCateController: MankaBaseController {
     private func setupLoadData() {
         ApiLoadingProvider.request(MankaApi.cateList, model: MankaCateListModel.self) { (returnData) in
             self.collectionView.uempty!.allowShow = true
-            
-            self.searchString = returnData?.recommendSearch ?? ""
             self.topList = returnData?.topList ?? []
             self.rankList = returnData?.rankingList ?? []
-            
             self.searchButton.setTitle(self.searchString, for: .normal)
             self.collectionView.reloadData()
             self.collectionView.uHead.endRefreshing()
@@ -64,7 +61,7 @@ class MankaCateController: MankaBaseController {
     }
     
     @objc private func searchButtonClick() {
-        //navigationController?.pushViewController(, animated: <#T##Bool#>)
+        navigationController?.pushViewController(MankaSearchController(), animated: true)
     }
     
     override func setupLayout(){

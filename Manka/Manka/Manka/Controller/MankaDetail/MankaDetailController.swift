@@ -13,7 +13,7 @@ protocol MankaComicViewWillEndDraggingDelegate: class {
     func comicWillEndDragging(_ scrollView: UIScrollView)
 }
 
-class MankaDetailViewController: MankaBaseController {
+class MankaDetailController: MankaBaseController {
     
     private var comicid: Int = 0
     
@@ -148,7 +148,7 @@ class MankaDetailViewController: MankaBaseController {
     
 }
 
-extension MankaDetailViewController: UIScrollViewDelegate, MankaComicViewWillEndDraggingDelegate {
+extension MankaDetailController: UIScrollViewDelegate, MankaComicViewWillEndDraggingDelegate {
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
         if scrollView.contentOffset.y >= -scrollView.parallaxHeader.minimumHeight {
             navigationController?.barStyle(.theme)

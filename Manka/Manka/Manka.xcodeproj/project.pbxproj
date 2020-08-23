@@ -3,13 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		019592AD29DEB7B40BE7C935 /* Pods_MankaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91733A6516FC0C73F1837D3F /* Pods_MankaUITests.framework */; };
 		858CEFB4865147906ECA6DF3 /* Pods_MankaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0EDE390CEA1D3CB3103F486 /* Pods_MankaTests.framework */; };
 		8836B3244D4BC907F42D3DFA /* Pods_Manka.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9A4DB3E24DBAECD32DFD78E /* Pods_Manka.framework */; };
+		D22446B624F2214C003259D1 /* MankaSearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22446B524F2214C003259D1 /* MankaSearchController.swift */; };
+		D22446BA24F22E32003259D1 /* MankaBaseTableViewHeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22446B924F22E32003259D1 /* MankaBaseTableViewHeaderFooterView.swift */; };
+		D22446BC24F22F3D003259D1 /* MankaSearchHeadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22446BB24F22F3D003259D1 /* MankaSearchHeadView.swift */; };
+		D22446BE24F22FC4003259D1 /* MankaSearchFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22446BD24F22FC4003259D1 /* MankaSearchFooterView.swift */; };
 		D2351CF824E42C38005C16FF /* MankaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2351CF724E42C38005C16FF /* MankaModel.swift */; };
 		D2351CFA24E42E82005C16FF /* MankaCateRankCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2351CF924E42E82005C16FF /* MankaCateRankCollectionViewCell.swift */; };
 		D2351CFC24E43025005C16FF /* MankaBaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2351CFB24E43025005C16FF /* MankaBaseCollectionViewCell.swift */; };
@@ -21,7 +25,7 @@
 		D2351D0E24E7CD69005C16FF /* MankaCateListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2351D0D24E7CD69005C16FF /* MankaCateListController.swift */; };
 		D2351D1224E7D90C005C16FF /* MankaCateListTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2351D1124E7D90C005C16FF /* MankaCateListTVCell.swift */; };
 		D2351D1524E7D9A1005C16FF /* MankaBaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2351D1424E7D9A1005C16FF /* MankaBaseTableViewCell.swift */; };
-		D2351D2224E8F29A005C16FF /* MankaDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2351D2124E8F29A005C16FF /* MankaDetailViewController.swift */; };
+		D2351D2224E8F29A005C16FF /* MankaDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2351D2124E8F29A005C16FF /* MankaDetailController.swift */; };
 		D2351D2524E908CA005C16FF /* ParallaxHeaderMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2351D2424E908CA005C16FF /* ParallaxHeaderMode.swift */; };
 		D2351D2824E908EE005C16FF /* UIScrollView+ParallaxHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2351D2724E908EE005C16FF /* UIScrollView+ParallaxHeader.swift */; };
 		D2351D2A24E90904005C16FF /* ParallaxHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2351D2924E90904005C16FF /* ParallaxHeader.swift */; };
@@ -81,6 +85,10 @@
 		91733A6516FC0C73F1837D3F /* Pods_MankaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MankaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AC00DDB3A273B4309C7D4F4 /* Pods-MankaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MankaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MankaTests/Pods-MankaTests.release.xcconfig"; sourceTree = "<group>"; };
 		A0EDE390CEA1D3CB3103F486 /* Pods_MankaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MankaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D22446B524F2214C003259D1 /* MankaSearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MankaSearchController.swift; sourceTree = "<group>"; };
+		D22446B924F22E32003259D1 /* MankaBaseTableViewHeaderFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MankaBaseTableViewHeaderFooterView.swift; sourceTree = "<group>"; };
+		D22446BB24F22F3D003259D1 /* MankaSearchHeadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MankaSearchHeadView.swift; sourceTree = "<group>"; };
+		D22446BD24F22FC4003259D1 /* MankaSearchFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MankaSearchFooterView.swift; sourceTree = "<group>"; };
 		D2351CF724E42C38005C16FF /* MankaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MankaModel.swift; sourceTree = "<group>"; };
 		D2351CF924E42E82005C16FF /* MankaCateRankCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MankaCateRankCollectionViewCell.swift; sourceTree = "<group>"; };
 		D2351CFB24E43025005C16FF /* MankaBaseCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MankaBaseCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -92,7 +100,7 @@
 		D2351D0D24E7CD69005C16FF /* MankaCateListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MankaCateListController.swift; sourceTree = "<group>"; };
 		D2351D1124E7D90C005C16FF /* MankaCateListTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MankaCateListTVCell.swift; sourceTree = "<group>"; };
 		D2351D1424E7D9A1005C16FF /* MankaBaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MankaBaseTableViewCell.swift; sourceTree = "<group>"; };
-		D2351D2124E8F29A005C16FF /* MankaDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MankaDetailViewController.swift; sourceTree = "<group>"; };
+		D2351D2124E8F29A005C16FF /* MankaDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MankaDetailController.swift; sourceTree = "<group>"; };
 		D2351D2424E908CA005C16FF /* ParallaxHeaderMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxHeaderMode.swift; sourceTree = "<group>"; };
 		D2351D2724E908EE005C16FF /* UIScrollView+ParallaxHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScrollView+ParallaxHeader.swift"; sourceTree = "<group>"; };
 		D2351D2924E90904005C16FF /* ParallaxHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxHeader.swift; sourceTree = "<group>"; };
@@ -173,6 +181,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D22446B224F21A35003259D1 /* MankaSearch */ = {
+			isa = PBXGroup;
+			children = (
+				D22446BB24F22F3D003259D1 /* MankaSearchHeadView.swift */,
+				D22446BD24F22FC4003259D1 /* MankaSearchFooterView.swift */,
+			);
+			path = MankaSearch;
+			sourceTree = "<group>";
+		};
+		D22446B424F21A58003259D1 /* MankaSearch */ = {
+			isa = PBXGroup;
+			children = (
+				D22446B524F2214C003259D1 /* MankaSearchController.swift */,
+			);
+			path = MankaSearch;
+			sourceTree = "<group>";
+		};
 		D2351CFF24E43A1A005C16FF /* API */ = {
 			isa = PBXGroup;
 			children = (
@@ -197,6 +222,7 @@
 				D2351CFB24E43025005C16FF /* MankaBaseCollectionViewCell.swift */,
 				D2351D1424E7D9A1005C16FF /* MankaBaseTableViewCell.swift */,
 				D271960924F01FD6007CB80E /* MankaBaseCollectionReusableView.swift */,
+				D22446B924F22E32003259D1 /* MankaBaseTableViewHeaderFooterView.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -217,7 +243,7 @@
 				D2351D3024E91B23005C16FF /* Chapter */,
 				D2351D2F24E91B17005C16FF /* Comment */,
 				D2351D2E24E91AFE005C16FF /* Detail */,
-				D2351D2124E8F29A005C16FF /* MankaDetailViewController.swift */,
+				D2351D2124E8F29A005C16FF /* MankaDetailController.swift */,
 				D2351D0B24E7C9C0005C16FF /* MankaPageController.swift */,
 			);
 			path = MankaDetail;
@@ -377,6 +403,7 @@
 		D2B4BE0E24E2E0DF001546C3 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				D22446B424F21A58003259D1 /* MankaSearch */,
 				D271961124F0F12D007CB80E /* MankaReader */,
 				D2351D1F24E8F17F005C16FF /* MankaDetail */,
 				D2B4BE1924E2E7F5001546C3 /* MankaCate */,
@@ -396,6 +423,7 @@
 		D2B4BE1024E2E10B001546C3 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				D22446B224F21A35003259D1 /* MankaSearch */,
 				D271960E24F0F07C007CB80E /* MankaReader */,
 				D2351D2024E8F1D2005C16FF /* MankaDetail */,
 				D2351D1E24E8F15D005C16FF /* MankaCate */,
@@ -690,13 +718,15 @@
 				D2B4BE1424E2E327001546C3 /* MankaBaseController.swift in Sources */,
 				D2351D1524E7D9A1005C16FF /* MankaBaseTableViewCell.swift in Sources */,
 				D2351D0C24E7C9C0005C16FF /* MankaPageController.swift in Sources */,
-				D2351D2224E8F29A005C16FF /* MankaDetailViewController.swift in Sources */,
+				D2351D2224E8F29A005C16FF /* MankaDetailController.swift in Sources */,
+				D22446BE24F22FC4003259D1 /* MankaSearchFooterView.swift in Sources */,
 				D2351D3624E94627005C16FF /* MankaOtherWorksTCell.swift in Sources */,
 				D2351D3A24E94648005C16FF /* MankaGuessLikeTVCell.swift in Sources */,
 				D271960C24F0262B007CB80E /* MankaChapterCollectionViewCell.swift in Sources */,
 				D2B4BE1E24E2E881001546C3 /* MankaCateController.swift in Sources */,
 				D2351D0E24E7CD69005C16FF /* MankaCateListController.swift in Sources */,
 				D271960A24F01FD6007CB80E /* MankaBaseCollectionReusableView.swift in Sources */,
+				D22446B624F2214C003259D1 /* MankaSearchController.swift in Sources */,
 				D2351CFE24E43920005C16FF /* MankaCateTopCollectionViewCell.swift in Sources */,
 				D2351D3424E94615005C16FF /* MankaDescriptionTCell.swift in Sources */,
 				D27E4E3924E2D0B6009F3416 /* Manka.xcdatamodeld in Sources */,
@@ -709,8 +739,10 @@
 				D2351D2A24E90904005C16FF /* ParallaxHeader.swift in Sources */,
 				D2351D3F24E949E5005C16FF /* MankaComicCollectionViewCell.swift in Sources */,
 				D2351D3224E91B4C005C16FF /* MankaContentDetailController.swift in Sources */,
+				D22446BA24F22E32003259D1 /* MankaBaseTableViewHeaderFooterView.swift in Sources */,
 				D271960824F01BE4007CB80E /* MankaChapterHeaderView.swift in Sources */,
 				D2351CFC24E43025005C16FF /* MankaBaseCollectionViewCell.swift in Sources */,
+				D22446BC24F22F3D003259D1 /* MankaSearchHeadView.swift in Sources */,
 				D27E4E3124E2D0B6009F3416 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

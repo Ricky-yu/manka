@@ -29,6 +29,18 @@ enum MankaComicType: Int, HandyJSONEnum {
     case billboard = 11
 }
 
+struct MankaHotItemsModel: HandyJSON {
+    var hotItems: [MankaSearchItemModel]?
+    var defaultSearch: String?
+}
+
+struct MankaSearchResultModel: HandyJSON {
+    var comicNum: Int = 0
+    var hasMore: Bool = false
+    var page: Int = 0
+    var comics: [MankaComicModel]?
+}
+
 struct MnakaTabModel: HandyJSON {
     var argName: String?
     var argValue: Int = 0
@@ -61,6 +73,12 @@ struct MankaRankingModel: HandyJSON {
     var title: String?
     var subTitle: String?
     var rankingType: Int = 0
+}
+
+struct MankaSearchItemModel: HandyJSON {
+    var comic_id: Int = 0
+    var name: String?
+    var bgColor: String?
 }
 
 struct MankaCateListModel: HandyJSON {

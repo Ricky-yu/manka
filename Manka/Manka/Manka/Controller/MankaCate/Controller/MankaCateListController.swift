@@ -93,7 +93,7 @@ extension MankaComicListController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let model = comicList[indexPath.row]
-        let vc =  MankaDetailViewController(comicid: model.comicId)
+        let vc =  MankaDetailController(comicid: model.comicId)
         navigationController?.pushViewController(vc, animated: true)
     }
 }

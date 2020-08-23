@@ -67,3 +67,8 @@ private  func _topVC(_ vc: UIViewController?) -> UIViewController? {
         return vc
     }
 }
+
+extension String {
+    static let searchHistoryKey = "searchHistoryKey"
+    static let sexTypeKey = "sexTypeKey"
+}

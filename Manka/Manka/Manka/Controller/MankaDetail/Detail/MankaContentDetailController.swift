@@ -95,7 +95,7 @@ extension MankaContentDetailController: UITableViewDelegate, UITableViewDataSour
             let cell = tableView.dequeueReusableCell(for: indexPath, cellType: MankaGuessLikeTVCell.self)
             cell.model = guessLike
             cell.didSelectClosure { [weak self] (comic) in
-                let vc = MankaDetailViewController(comicid: comic.comic_id)
+                let vc = MankaDetailController(comicid: comic.comic_id)
                 self?.navigationController?.pushViewController(vc, animated: true)
             }
             return cell

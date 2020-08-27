@@ -80,6 +80,9 @@ struct MankaSearchItemModel: HandyJSON {
     var name: String?
     var bgColor: String?
 }
+struct MankaData: HandyJSON {
+    var returnData: [MankaSearchItemModel]?
+}
 
 struct MankaCateListModel: HandyJSON {
     var recommendSearch: String?

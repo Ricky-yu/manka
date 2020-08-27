@@ -95,8 +95,8 @@ class MankaSearchController: MankaBaseController {
             searchTableView.isHidden = false
             resultTableView.isHidden = true
             currentRequest?.cancel()
-            ApiProvider.request(MankaApi.searchRelative(inputText: text), model: MankaSearchItemModel.self) { (returnData) in
-                self.relative?.append(returnData ?? MankaSearchItemModel())
+            ApiLoadingProvider.request(MankaApi.searchHot, model: MankaHotItemsModel.self) { (returnData) in
+                self.relative = returnData?.hotItems
                 self.searchTableView.reloadData()
             }
         } else {

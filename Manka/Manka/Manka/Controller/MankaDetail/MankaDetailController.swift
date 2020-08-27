@@ -78,36 +78,42 @@ class MankaDetailController: MankaBaseController {
                                    model: MankaDetailStaticModel.self) { [weak self] (detailStatic) in
                                     self?.detailStatic = detailStatic
                                     self?.headView.detailStatic = detailStatic?.comic
-                                    
                                     self?.detailVC.detailStatic = detailStatic
                                     self?.chapterVC.detailStatic = detailStatic
+                                    grpup.leave()
+        }
+        
+        grpup.enter()
+        DispatchQueue.global().async {
+            ApiProvider.request(MankaApi.commentList(object_id: self.detailStatic?.comic?.comic_id ?? 0,
+                                                     thread_id: self.detailStatic?.comic?.thread_id ?? 0,
+                                                     page: -1),
+                                model: MankaCommentListModel.self,
+                                completion: { [weak self] (commentList) in
+                                    grpup.leave()
+            })
+        }
+        
+        grpup.enter()
+        DispatchQueue.global().async {
+            ApiProvider.request(MankaApi.detailRealtime(comicid: self.comicid),
+                                model: MankaDetailRealtimeModel.self) { [weak self] (returnData) in
+                                    self?.detailRealtime = returnData
+                                    self?.headView.detailRealtime = returnData?.comic
                                     
-                                    ApiProvider.request(MankaApi.commentList(object_id: detailStatic?.comic?.comic_id ?? 0,
-                                                                             thread_id: detailStatic?.comic?.thread_id ?? 0,
-                                                                             page: -1),
-                                                        model: MankaCommentListModel.self,
-                                                        completion: { [weak self] (commentList) in
-                                                            
-                                                            grpup.leave()
-                                    })
+                                    self?.detailVC.detailRealtime = returnData
+                                    self?.chapterVC.detailRealtime = returnData
+                                    
+                                    grpup.leave()
+            }
         }
         
         grpup.enter()
-        ApiProvider.request(MankaApi.detailRealtime(comicid: comicid),
-                            model: MankaDetailRealtimeModel.self) { [weak self] (returnData) in
-                                self?.detailRealtime = returnData
-                                self?.headView.detailRealtime = returnData?.comic
-                                
-                                self?.detailVC.detailRealtime = returnData
-                                self?.chapterVC.detailRealtime = returnData
-                                
-                                grpup.leave()
-        }
-        
-        grpup.enter()
-        ApiProvider.request(MankaApi.guessLike, model: MankaGuessLikeModel.self) { (returnData) in
-            self.detailVC.guessLike = returnData
-            grpup.leave()
+        DispatchQueue.global().async {
+            ApiProvider.request(MankaApi.guessLike, model: MankaGuessLikeModel.self) { (returnData) in
+                self.detailVC.guessLike = returnData
+                grpup.leave()
+            }
         }
         
         grpup.notify(queue: DispatchQueue.main) {

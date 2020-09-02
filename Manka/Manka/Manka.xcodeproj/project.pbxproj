@@ -58,6 +58,8 @@
 		D2B4BE1724E2E3AD001546C3 /* MankaSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B4BE1624E2E3AD001546C3 /* MankaSetting.swift */; };
 		D2B4BE1E24E2E881001546C3 /* MankaCateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B4BE1D24E2E881001546C3 /* MankaCateController.swift */; };
 		D2B4BE2024E2EFBB001546C3 /* MankaNaviController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B4BE1F24E2EFBB001546C3 /* MankaNaviController.swift */; };
+		D2B6568624FFD3C4009A5564 /* MankaMineController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B6568524FFD3C4009A5564 /* MankaMineController.swift */; };
+		D2B6568A24FFD4C8009A5564 /* MankaMineHeadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B6568924FFD4C8009A5564 /* MankaMineHeadView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -139,6 +141,8 @@
 		D2B4BE1624E2E3AD001546C3 /* MankaSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MankaSetting.swift; sourceTree = "<group>"; };
 		D2B4BE1D24E2E881001546C3 /* MankaCateController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MankaCateController.swift; sourceTree = "<group>"; };
 		D2B4BE1F24E2EFBB001546C3 /* MankaNaviController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MankaNaviController.swift; sourceTree = "<group>"; };
+		D2B6568524FFD3C4009A5564 /* MankaMineController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MankaMineController.swift; sourceTree = "<group>"; };
+		D2B6568924FFD4C8009A5564 /* MankaMineHeadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MankaMineHeadView.swift; sourceTree = "<group>"; };
 		E1468107E0729EDAA4ECB08A /* Pods-MankaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MankaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MankaTests/Pods-MankaTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E9A4DB3E24DBAECD32DFD78E /* Pods_Manka.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Manka.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -403,10 +407,8 @@
 		D2B4BE0E24E2E0DF001546C3 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				D22446B424F21A58003259D1 /* MankaSearch */,
-				D271961124F0F12D007CB80E /* MankaReader */,
-				D2351D1F24E8F17F005C16FF /* MankaDetail */,
-				D2B4BE1924E2E7F5001546C3 /* MankaCate */,
+				D2B6568424FFD396009A5564 /* Mine */,
+				D2B6568324FFD362009A5564 /* Cate */,
 				D2B4BE1824E2E7E7001546C3 /* Base */,
 			);
 			path = Controller;
@@ -423,10 +425,8 @@
 		D2B4BE1024E2E10B001546C3 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				D22446B224F21A35003259D1 /* MankaSearch */,
-				D271960E24F0F07C007CB80E /* MankaReader */,
-				D2351D2024E8F1D2005C16FF /* MankaDetail */,
-				D2351D1E24E8F15D005C16FF /* MankaCate */,
+				D2B6568824FFD4B2009A5564 /* Mine */,
+				D2B6568724FFD497009A5564 /* Cate */,
 				D2351D1324E7D94F005C16FF /* Base */,
 			);
 			path = View;
@@ -465,6 +465,44 @@
 				D2351D0D24E7CD69005C16FF /* MankaCateListController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		D2B6568324FFD362009A5564 /* Cate */ = {
+			isa = PBXGroup;
+			children = (
+				D2B4BE1924E2E7F5001546C3 /* MankaCate */,
+				D2351D1F24E8F17F005C16FF /* MankaDetail */,
+				D271961124F0F12D007CB80E /* MankaReader */,
+				D22446B424F21A58003259D1 /* MankaSearch */,
+			);
+			path = Cate;
+			sourceTree = "<group>";
+		};
+		D2B6568424FFD396009A5564 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				D2B6568524FFD3C4009A5564 /* MankaMineController.swift */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		D2B6568724FFD497009A5564 /* Cate */ = {
+			isa = PBXGroup;
+			children = (
+				D2351D1E24E8F15D005C16FF /* MankaCate */,
+				D2351D2024E8F1D2005C16FF /* MankaDetail */,
+				D271960E24F0F07C007CB80E /* MankaReader */,
+				D22446B224F21A35003259D1 /* MankaSearch */,
+			);
+			path = Cate;
+			sourceTree = "<group>";
+		};
+		D2B6568824FFD4B2009A5564 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				D2B6568924FFD4C8009A5564 /* MankaMineHeadView.swift */,
+			);
+			path = Mine;
 			sourceTree = "<group>";
 		};
 		F9AA233CD32F3CAEC44622CE /* Pods */ = {
@@ -710,6 +748,7 @@
 				D2351D0624E43E7B005C16FF /* EmptyDataSet.swift in Sources */,
 				D2351CFA24E42E82005C16FF /* MankaCateRankCollectionViewCell.swift in Sources */,
 				D2351D3824E94639005C16FF /* MankaTicketTVCell.swift in Sources */,
+				D2B6568624FFD3C4009A5564 /* MankaMineController.swift in Sources */,
 				D271961524F0F27F007CB80E /* MankaReadTopBarView.swift in Sources */,
 				D2B4BE2024E2EFBB001546C3 /* MankaNaviController.swift in Sources */,
 				D27E4E3324E2D0B6009F3416 /* ViewController.swift in Sources */,
@@ -725,6 +764,7 @@
 				D271960C24F0262B007CB80E /* MankaChapterCollectionViewCell.swift in Sources */,
 				D2B4BE1E24E2E881001546C3 /* MankaCateController.swift in Sources */,
 				D2351D0E24E7CD69005C16FF /* MankaCateListController.swift in Sources */,
+				D2B6568A24FFD4C8009A5564 /* MankaMineHeadView.swift in Sources */,
 				D271960A24F01FD6007CB80E /* MankaBaseCollectionReusableView.swift in Sources */,
 				D22446B624F2214C003259D1 /* MankaSearchController.swift in Sources */,
 				D2351CFE24E43920005C16FF /* MankaCateTopCollectionViewCell.swift in Sources */,

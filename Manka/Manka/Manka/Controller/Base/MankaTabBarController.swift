@@ -22,6 +22,11 @@ class MankaTabBarController: UITabBarController {
                            title: "分類",
                            image: UIImage(named: "tab_class"),
                            selectedImage: UIImage(named: "tab_class_S"))
+        let mineVC = MankaMineController()
+        addChildController(mineVC,
+                           title: "我的",
+                           image: UIImage(named: "tab_mine"),
+                           selectedImage: UIImage(named: "tab_mine_S"))
     }
     
     func addChildController(_ childController: UIViewController, title:String?, image:UIImage? ,selectedImage:UIImage?) {

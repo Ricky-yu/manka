@@ -38,7 +38,7 @@ enum MankaApi {
     //搜索热门
     case searchHot
     //相关搜索
-    case searchRelative(inputText: String)
+    case searchRelative(Text: String)
     //搜索结果
     case searchResult(argCon: Int, q: String)
     //推荐列表
@@ -109,8 +109,8 @@ extension MankaApi: TargetType {
     var task: Task {
         var parmeters: [String : Any] = [:]
         switch self {
-        case .searchRelative(let inputText):
-            parmeters["inputText"] = inputText
+        case .searchRelative(let Text):
+            parmeters["inputText"] = Text
             
         case .searchResult(let argCon, let q):
             parmeters["argCon"] = argCon

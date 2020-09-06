@@ -30,7 +30,7 @@ class MankaMineController: MankaBaseController {
     }()
     
     private lazy var head: MankaMineHeadView = {
-       return MankaMineHeadView()
+        return MankaMineHeadView(frame: CGRect(x: 0, y: 0, width: screenWidth, height: 200))
     }()
     
     private lazy var navigationBarY: CGFloat = {
@@ -74,7 +74,7 @@ class MankaMineController: MankaBaseController {
     override func configNavigationBar() {
         super.configNavigationBar()
         navigationController?.barStyle(.clear)
-             
+        
     }
 }
 extension MankaMineController: UITableViewDelegate, UITableViewDataSource {
@@ -88,8 +88,12 @@ extension MankaMineController: UITableViewDelegate, UITableViewDataSource {
         return sectionArray.count
     }
     
-    func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
-        return 10
+    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        return CGFloat.leastNormalMagnitude
+    }
+    
+    func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        return nil
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -106,5 +110,7 @@ extension MankaMineController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
     }
+    
+   
     
 }

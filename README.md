@@ -1,7 +1,7 @@
 # manka
-Manka
+漫画APP
 # 開発環境
-Xcode11.2, Swift5, CocoaPods
+Xcode11.2, Swift5, CocoaPods, MVC
 
 ### ライブラリ
 HandyJSON, SnapKit, Kingfisher, MJRefresh, MBProgressHUD, HMSegmentedControl

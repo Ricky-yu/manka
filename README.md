@@ -19,4 +19,6 @@ Todo.xcworkspaceをクリックして起動 <br>
   <img src="https://github.com/Ricky-yu/manka/blob/master/screen2.png" width="250" title="hover text">
   <img src="https://github.com/Ricky-yu/manka/blob/master/screen1.png" width="250" title="hover text">
 </p>
-
+<p align="left">
+  <img src="https://github.com/Ricky-yu/manka/blob/master/MankaDemo.gif" width="500" title="hover text">
+</p>
